@@ -1,0 +1,172 @@
+body{
+    margin: auto;
+    text-align: center;
+}
+
+
+.container{
+    width: 400px;
+    height: 73vh;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 100px;
+    box-shadow: 10px 10px 10px 10px lightgray;
+}
+
+
+.container > .part-1{
+    height: 20vh;
+    border-radius: 10px;
+}
+
+
+
+.container > .part-2{
+    height: 54vh;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.container > .part-2  > .item-1{
+    margin-top: -5px;
+}
+
+.container > .part-2  > .item-1 > button{
+    font-size: 2em;
+    color: skyblue;
+    font-weight: 500;
+
+}
+
+.container > .part-2  > .item-1 > .CButton{
+    background-color: skyblue;
+    color: white;
+}
+
+.container > .part-2  > .item-1 > .CButton:hover{
+    transition-duration: 1s;
+    background-color: white;
+    color: skyblue;
+    cursor: pointer;
+}
+
+.container > .part-2  > .item-2 > .multi{
+    font-size: 2em;
+    color: skyblue;
+    font-weight: 500;
+
+}
+
+.container > .part-2  > .item-2 > .multi{
+    font-size: 2em;
+    color: skyblue;
+    font-weight: 500;
+
+}
+
+.container > .part-2  > .item-2 > .multi:hover{
+    transition-duration: 1s;
+    color: white;
+}
+
+.container > .part-2  > .item-3 > .different{
+    font-size: 2em;
+    color: skyblue;
+    font-weight: 500;
+
+}
+
+.container > .part-2  > .item-3 > .different:hover{
+    transition-duration: 1s;
+    color: white;
+}
+
+.container > .part-2  > .item-4 > .plus{
+    font-size: 2em;
+    color: skyblue;
+    font-weight: 500;
+}
+
+.container > .part-2  > .item-4 > .plus:hover{
+    transition-duration: 1s;
+    color: white;
+}
+
+
+
+
+.container > .part-2  > div{
+    margin-left: -10px;
+}
+
+.container > .part-2  > div > button{
+    width: 80px;
+    height: 80px;
+    margin-left: 12px;
+    margin-top: 15px;
+    box-shadow: 3px 3px 3px 3px whitesmoke;
+    border: 0px;
+    border-radius: 25px;
+    background-color: transparent;
+    font-size: 1.4em;
+    font-weight: 900;
+}
+
+.container > .part-2  > div > button:hover{
+    cursor: pointer;
+    transition-duration: 1s;
+    background-color: skyblue;
+    color: white;
+}
+
+.container > .part-2  > .item-5{
+    position: relative;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.container > .part-2  > .item-5 > .clear{
+    position: absolute;
+    top: 1px;
+    left: 290px;
+}
+
+.container > .part-2  > .item-5 > .clear > img{
+    width: 40px;
+    height: 40px;
+
+}
+
+
+
+.container > .part-1 >h1{
+    text-align: right;
+    padding-top: 20px;
+    padding-right: 10px;
+}
+
+
+
+.container > .part-1 > .h-1{
+    color: #0087f3;
+    font-size: 3em;
+    margin-top: 10px;
+    font-weight: 200;
+}
+
+.container > .part-1 > .h-2{
+    color: gray;
+    font-weight: 300;
+}
+
+
+
+#darkMode{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: black;
+    margin-top: -80px;
+    margin-left: 10px;
+}
